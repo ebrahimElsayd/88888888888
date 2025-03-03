@@ -151,7 +151,22 @@
 //     );
 //   }
 //
-//
+//   Widget _buildMandatoryFields() {
+//     return Column(
+//       crossAxisAlignment: CrossAxisAlignment.start,
+//       children: [
+//         Text(
+//           "Mandatory Fields",
+//           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+//         ),
+//         Text("All mandatory documents must be clear, valid, and up-to-date."),
+//         SizedBox(height: 10),
+//         _buildUploadField("Gym Operating License"),
+//         _buildUploadField("ID or Passport of Owner"),
+//         _buildUploadField("Ownership Contract"),
+//       ],
+//     );
+//   }
 //
 //   Widget _buildOptionalFields() {
 //     return Column(
