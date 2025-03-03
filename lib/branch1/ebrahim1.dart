@@ -31,16 +31,3 @@
 //     "Tax Registration": null,
 //   };
 //
-//   bool _validate = false;
-//
-//   Future<void> _pickFile(String fieldName) async {
-//     final pickedFile = await ImagePicker().pickImage(
-//       source: ImageSource.gallery,
-//     );
-//     if (pickedFile != null) {
-//       setState(() {
-//         _uploadedFiles[fieldName] = File(pickedFile.path);
-//       });
-//     }
-//   }
-//
