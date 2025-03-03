@@ -23,6 +23,7 @@ class AddGymScreen extends StatefulWidget {
   _AddGymScreenState createState() => _AddGymScreenState();
 }
 
+
 class _AddGymScreenState extends State<AddGymScreen> {
   final Map<String, File?> _uploadedFiles = {
     "Gym Operating License": null,
